@@ -99,27 +99,27 @@ Proyecto en Python para **captura de dataset**, **extracción de features de man
 ## Uso (paso a paso)
 
 ### 1) Capturar dataset inicial
-```bash
+
 python colectar_imgs.py
 
 ### 2) Agregar nuevas imágenes al dataset (sin pisar nombres)
-```bash
+
 python colectar_nuevas_imgs.py
 
 ### 3) Crear dataset de features
-```bash
+
 python crear_dataset.py
 
 ### 4) Limpiar dataset para 1 mano
-```bash
+
 python limpiar_pickle.py
 
 ### 5) Entrenar Random Forest
-```bash
+
 python entrenamiento_clasificador.py
 
 ### 6) Ejecutar inferencia y armar palabras
-```bash
+
 python clasificador_inferencia_palabras.py
 
 ---
